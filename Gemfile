@@ -29,6 +29,9 @@ gem 'active_model_serializers'
 # Use Puma as the app server
 gem 'puma'
 
+# Authentication
+gem 'devise'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
