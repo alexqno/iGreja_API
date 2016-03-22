@@ -30,7 +30,7 @@ gem 'active_model_serializers'
 gem 'puma'
 
 # Authentication
-gem 'devise'
+gem "devise"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -51,7 +51,8 @@ gem 'devise'
 group :test do
   gem "rspec-rails", "~> 3.0"
   gem "factory_girl_rails"
-  gem 'ffaker'
+  gem "ffaker"
+  gem "shoulda-matchers"
 end
 
 group :doc do
