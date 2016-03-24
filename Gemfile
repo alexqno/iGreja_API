@@ -32,6 +32,13 @@ gem 'puma'
 # Authentication
 gem "devise"
 
+# Endpoints mapping
+#gem 'sabisu_rails'#, github: "IcaliaLabs/sabisu-rails"
+#gem 'compass-rails', '~> 2.0.2'
+#gem 'furatto'
+#gem 'font-awesome-rails'
+#gem 'simple_form'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
